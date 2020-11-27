@@ -1,4 +1,4 @@
-://github.com/vim/vim/archive/v8.2.1520.tar.gz
+//github.com/vim/vim/archive/v8.2.1520.tar.gz
 sudo apt install cmake
 
 sudo apt install libncurses5-dev
@@ -21,6 +21,7 @@ sudo make -j4
 
 sudo make install
 
+# 安装vim插件ycm---自动补全
 python install.py --clang-completer
 最后可能有*.h not found 不用管
 
